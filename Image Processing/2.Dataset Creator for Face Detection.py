@@ -23,4 +23,4 @@ while True:
         break
     pass
 cam.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows
