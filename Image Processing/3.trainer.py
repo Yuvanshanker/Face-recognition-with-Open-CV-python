@@ -25,4 +25,4 @@ Ids, faces = getImageWithID(path)
 recognizer.train(faces, np.array(Ids))
 print(faces)
 print(recognizer.write('trainingData.yml'))
-cv2.destroyAllWindows
+cv2.destroyAllWindows()
